@@ -1,0 +1,16 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "dynamicImport": true
+    },
+    "target": "es2020",
+    //"baseUrl": ".",
+    "externalHelpers": true
+  },
+  "module": {
+    "type": "es6",
+    "resolveFully": true, // requires "baseUrl" to be set
+    "outFileExtension": "mjs" // requires "resolveFully": true 
+  }
+}
