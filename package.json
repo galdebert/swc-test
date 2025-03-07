@@ -5,7 +5,8 @@
   "license": "MIT",
 
   "scripts": {
-    "build": "swc src --config-file ./.swcrc --out-dir out"
+    "build": "swc src --config-file ./.swcrc --out-file-extension mjs --out-dir out --delete-dir-on-start",
+    "test": "node out/src/a.mjs"
   },
 
   "devDependencies": {
